@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+    margin: 15px;
+    padding: 5px;
+}
+nav h1{
+    color: red;
+}
+ nav ul{
+    display: flex;
+}
+ nav li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    margin: 15px;
+    color: red;
+}
+.section1{
+display: flex;
+margin: 30px;
+
+}
+aside img{
+    height: 300px;
+    
+}
+article{
+    margin-left: 50px;
+    
+}
+article h1{
+    text-align: center;
+    padding: 5px;
+    font-size: 25px;
+}
+article h2{
+    margin-left: 25px;
+    font-size: 20px;
+    
+    
+}
+article p{
+    margin-top: 15px;
+    margin-left: 25px;
+}
+
+article, aside{
+    border: 4px solid black;
+   
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    border: 4px solid black;
+    margin-top: 170px;
+}
+
+.section2{
+    margin-top: 6%;
+    margin-left: 25%;
+    border: 2px solid black;
+   width: 600px;
+align-items: center;
+justify-content: center;
+background-color: lightskyblue;
+box-shadow:0 5px 50px;
+}
+
+.moi{
+    width: 90%;
+    padding: 7px;
+
+}
+.toi{
+    width: 90%;
+    margin-top: 5px;
+    padding: 7px;
+}
+.lui{
+    width: 90%;
+    margin-top: 5px;
+    padding: 7px;
+}
+.nous{
+    
+    margin-top: 15px;
+    width: 93%;
+}
+ .bloc{
+    margin-left: 10px;
+}
+.bloc h1{
+    
+}
+.section3{
+    width: 700px;
+    border: 1px solid black;
+    margin-left: 25%;
+    margin-top: 9%;
+    background-color: darkgrey;
+    
+}
+.section3 h1{
+    color: rgb(6, 6, 59);
+    margin-left: 13px;
+    margin-top: 10px;
+    
+}
+.section3 p{
+    color: rgb(24, 24, 255);
+    margin: 10px;
+}
+
+.section4 table{
+    border-collapse: collapse;
+    min-width: 400px;
+    width: 600px;
+    box-shadow: 0 5px 50px;
+    margin: 100px auto;
+    
+    
+}
+.section4 thead tr{
+    background-color: blue;
+    color: white;
+    text-align: left;
+}
+th,td{
+    padding: 10px 20px;
+}
+tbody,tr,td,th{
+    border: 1px solid gray
+}
+tr,td{
+    color: blue;
+}
+
+
